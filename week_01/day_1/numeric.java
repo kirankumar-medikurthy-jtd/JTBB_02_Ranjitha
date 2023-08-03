@@ -36,7 +36,7 @@ class alphanumeric
 		}
 		System.out.println(alphaCount+" "+numbersCount+" "+specialCount);
 		if(alphaCount > 0 && numbersCount > 0 && specialCount > 0)
-		{
+		{	
 			System.out.println("String contains alphanumeric characters");
 		}
 		else

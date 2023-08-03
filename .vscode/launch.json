@@ -1,0 +1,251 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "Ntraverse",
+            "request": "launch",
+            "mainClass": "Ntraverse",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "UnionofArrays",
+            "request": "launch",
+            "mainClass": "UnionofArrays",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "Ztraversal",
+            "request": "launch",
+            "mainClass": "Ztraversal",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "alphanumeric",
+            "request": "launch",
+            "mainClass": "alphanumeric",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "boderElementsPresent",
+            "request": "launch",
+            "mainClass": "boderElementsPresent",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "comonelement",
+            "request": "launch",
+            "mainClass": "comonelement",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "daigonal",
+            "request": "launch",
+            "mainClass": "daigonal",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "findEvenOddNumber",
+            "request": "launch",
+            "mainClass": "findEvenOddNumber",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "findOutPrimeOrNot",
+            "request": "launch",
+            "mainClass": "findOutPrimeOrNot",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "leapYear",
+            "request": "launch",
+            "mainClass": "leapYear",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "minMaxOddEven",
+            "request": "launch",
+            "mainClass": "minMaxOddEven",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "missingNumber",
+            "request": "launch",
+            "mainClass": "missingNumber",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "ntraversa",
+            "request": "launch",
+            "mainClass": "ntraversa",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "positiveNegativeNumber",
+            "request": "launch",
+            "mainClass": "positiveNegativeNumber",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "printing",
+            "request": "launch",
+            "mainClass": "printing",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "product",
+            "request": "launch",
+            "mainClass": "product",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "reArrange",
+            "request": "launch",
+            "mainClass": "reArrange",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "simpleintrest",
+            "request": "launch",
+            "mainClass": "simpleintrest",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "smalarg",
+            "request": "launch",
+            "mainClass": "smalarg",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "sorted",
+            "request": "launch",
+            "mainClass": "sorted",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "stringReverse",
+            "request": "launch",
+            "mainClass": "stringReverse",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "substring",
+            "request": "launch",
+            "mainClass": "substring",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "target3sum",
+            "request": "launch",
+            "mainClass": "target3sum",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "vowesandconsonants",
+            "request": "launch",
+            "mainClass": "vowesandconsonants",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "zerone",
+            "request": "launch",
+            "mainClass": "zerone",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        },
+        {
+            "type": "java",
+            "name": "zeroremoving",
+            "request": "launch",
+            "mainClass": "zeroremoving",
+            "projectName": "JTBB_02_Ranjitha_aa5044c0"
+        }
+    ]
+}

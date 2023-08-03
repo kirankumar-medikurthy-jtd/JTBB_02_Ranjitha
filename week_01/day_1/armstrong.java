@@ -1,6 +1,6 @@
 //Write a program to check  whether a given number is an armstrong number or not
-public class ArmstrongNumber {
-	public static int number = 153;
+class ArmstrongNumber {
+	public static int number = 143;
         public static int temp = number;
 	public static void main(String[] args)
         {
@@ -33,7 +33,7 @@ public class ArmstrongNumber {
 		    
 		    //square
 		    
-		    sum += Math.pow(digit, count);
+		    sum += Math.pow(digit, count);	
 		    
 		    temp /= 10;
 		}

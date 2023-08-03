@@ -24,7 +24,7 @@ class zeroremoving
 			result += str.charAt(count);
 			count++;
 		}
-		System.out.println(count);
+		// System.out.println(count);
 		System.out.println(result);
 	}
 }
